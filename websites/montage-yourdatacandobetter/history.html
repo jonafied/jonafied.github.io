@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Your Data Can Do Better</title>
+
+    <link rel="shortcut icon" href="montage-logo.ico" type="image/x-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/history.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Stoke:400,300' rel='stylesheet' type='text/css'>
+
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-76809257-1', 'auto');
+       ga('send', 'pageview');
+
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-inner">
+                <ul class="nav nav-center">
+                    <li>
+                        <a href="index.html">about</a>
+                    </li>
+                    <li class="active">
+                        <a href="history.html">history</a>
+                    </li>
+                    <li>
+                        <a href="#aggregator" onclick = $("#menu-close").click(); >aggregator</a>
+                    </li>
+                    <li>
+                        <a href="#developers"onclick = $("#menu-close").click(); >for developers</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>    
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Header -->
+    <div class="section-header">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-md-offset-1">
+                    <div class="logo">
+                        <a class="navbar-brand topnav" href="index.html"><img src="css/images/montage-logo-tm.png" alt="montage">
+                          <span class="logo-montage"></span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-4">
+                    <div class="contact-info">
+                        <button type="button" class="btn btn-default btn-sm" id="contact" data-toggle="modal" data-target="#myModalContact">Contact Us  |
+                        </button>
+                        <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+                            <div class="wistia_embed wistia_async_gujkuml54i popover=true popoverContent=html" id="video"
+                            style="display:inline-block; white-space:nowrap;">
+                              <a href="#">Watch video<i class="fa fa-play-circle-o"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>                     
+        </div>    
+    </div>
+
+    <div class="intro-header-history text-center">
+        <div class="container" id="tagline">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-lg-offset-3">
+                    <div class="ag-message">
+                        <h1>A History</h1>
+                        <h3>Rich in Agriculture</h3>
+                        </br>
+                        <p class="ag-info">
+                            Located in the heart of the Central Valley surrounded by ag land, Montage is creating a new way to manage farming and agriculture
+                        </p>    
+                    </div>
+                </div>    
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.intro-header-history -->
+    <section id="aggregator">
+        <div class="content-aggregator">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <ul>
+                            <li>Soil Data</li>
+                            <li>Solar Production</li>
+                            <li>Well Data</li>
+                            <li>Utility Data</li>
+                            <li>Weather Data</li>
+                            <li>Nutrient Management</li>
+                        </ul>  
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-3">
+                        <div class="agg-logo">
+                            <img src="css/images/aggregator-logo.png" alt="aggregator">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-7 col-md-6 col-lg-6 col-md-offset-1">
+                        <div class="intro-message">
+                            <h1>Increase Yield.</h1>
+                            <h3>Make Better Decisions.</h3>   
+                            <p>Created by Montage, Aggregator is an effecient way to collate the data from many areas of ag input into an easy to read format.</p>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="developers">
+        <div class="content-section-developers">  
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1>For Developers</h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-offset-3 text-center">    
+                        <p class="app-info">Transform a lengthy drawn out release process to quick delivery of the desired application. Reduce both build and deployment costs.</p>
+                    </div>
+                </div>
+                <!-- /.ends row -->
+                <div class="row text-center">
+                    <div class="col-md-2 col-md-offset-3">
+                        <div class="dev-info">
+                            <p>Simple, easily accessible APIs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="dev-info">
+                            <p>Searching, filtering and retrieval in the language you choose</p>
+                        </div>
+                    </div>  
+                    <div class="col-md-2">
+                        <div class="dev-info">
+                            <p>Documentation, guides and helpful info.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.ends row -->
+                <div class="row text-center">
+                    <div class="col-md-2 col-md-offset-3">
+                        <div class="dev-info">
+                            <p>Guides and libraries in Ruby, Python, JavaScript and PHP</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="dev-info">
+                            <img src="css/images/cogwheel.png" alt="aggregator">
+                        </div>
+                    </div>  
+                    <div class="col-md-2">
+                        <div class="dev-info">
+                            <p>Explore API visually using API commands</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.ends row -->
+                <div class="row text-center">
+                    <div class="col-md-2 col-md-offset-3">
+                        <div class="dev-info">
+                            <p>Django and Rails framework integrations</p>
+                        </div>
+                    </div> 
+                    <div class="col-md-2 col-md-offset-2">
+                        <div class="dev-info">
+                            <p>See real results in JSON</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.ends row -->          
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.content-section-developers -->
+    </section>    
+
+    <div class="section-cofounders">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
+                    <div class="title">
+                        <h1>A Better Way</h1>
+                    </div>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-5 col-sm-5 col-md-4 col-lg-3 col-lg-offset-3">
+                    <div class="brad">
+                        <img src="css/images/brad.jpg">
+                            <h4>Brad Gleason</h4>
+                            <h5>co-founder</h5>
+                            <p>Over 25 years experience in planning and executing management strategies for farming operations of all sizes.</p>
+                    </div>
+                </div>    
+                <div class="col-xs-5 col-sm-5 col-md-4 col-lg-3">
+                    <div class="irma">
+                        <img src="css/images/irma.jpg">
+                            <h4>Irma Olguin</h4>
+                            <h5>co-founder</h5>
+                            <p>A decade of completing custom integration projects for big business and small startup, multiple technology companies founder.
+                            </p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8 col-md-offset-2">
+                    <div class="section-heading">
+                        <h1>Noticing Patterns. Filling the Void.</h1>
+                        <p>After noticing the need for a cloud-based platform of combining data for business and agriculture, Irma and Brad joined forces to bring you Montage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.section-cofounders -->
+
+    <div class="contact-demo-history">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12 text-center">
+                    <div class="form-message">
+                        <h1>Like Montage?</h1>
+                        <p class="demo-info">Contact us today to set up a demo.</p>
+                        <button type="button" class="btn-default" id="ag-btn" data-toggle="modal" data-target="#myModalContact">CONTACT US
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.contact-demo-history -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Request Demo</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="contact" name="contact" method="POST" action="//formspree.io/iolguin@mntge.com">
+                    <div class="text-center">
+                      <input type="text" name="name" placeholder="First*" class="input-text" required>
+                      <input type="text" placeholder="Last" class="input-text"><br>
+                      <input type="text" placeholder="Company Name" class="input-text">
+                      <input type="text" placeholder="Phone Number*" class="input-text" required><br>
+                    </div>  
+                      <input type="email" name="_replyto" placeholder="Email Address*" class="input-email" required><br>
+                      <input type="hidden" name="_cc" value="mmayes@editllc.com" /> 
+
+                      <textarea name="message" placeholder="Message*" class="input-message" required></textarea>
+
+
+                      <input type="hidden" name="_subject" value="Demo requested from yourdatacandobetter.com" />
+
+                      <button type="submit" class="btn btn-default btn-modal pull-right">Send</button>
+                  </form>  
+                </div>
+
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-4 pull-left">
+                        <h5>*Denotes required fields</h5>
+                    </div>
+                  </div>  
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Modal-2 -->
+    <div class="modal fade" id="myModalContact" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Contact Us</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="contact" name="contact" method="POST" action="//formspree.io/iolguin@mntge.com">
+                    <div class="text-center">
+                      <input type="text" name="name" placeholder="First*" class="input-text" required>
+                      <input type="text" placeholder="Last" class="input-text"><br>
+                      <input type="text" placeholder="Company Name" class="input-text">
+                      <input type="text" placeholder="Phone Number*" class="input-text" required><br>
+                    </div>  
+                      <input type="email" name="_replyto" placeholder="Email Address*" class="input-email" required><br>
+                      <input type="hidden" name="_cc" value="mmayes@editllc.com" /> 
+
+                      <textarea name="message" placeholder="Message*" class="input-message" required></textarea>
+
+
+                      <input type="hidden" name="_subject" value="Demo requested from yourdatacandobetter.com" />
+
+                      <button type="submit" class="btn btn-default btn-modal pull-right">Send</button>
+                  </form>  
+                </div>
+
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-4 pull-left">
+                        <h5>*Denotes required fields</h5>
+                    </div>
+                  </div>  
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-6">
+                    <h2>Connect with us:</h2>
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com/editLLC" target="_blank">Facebook/Editllc</li>
+                        <li><a href="https://twitter.com/editllc" target="_blank">Twitter@Montage</li>
+                        <li><a href="https://instagram.com/edit_llc" target="_blank">Instagram Edit_llc</li>
+                    </ul>      
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-6"> 
+                    <div class="account">
+                        <a href="https://mntge.com" target="_blank">My Account/Login
+                    </div>
+                </div>   
+            </div>
+            <div class="border"></div>
+            <div class="row">    
+                <div class="col-xs-6 col-lg-10">
+                    <ul class="address">
+                        <li>Montage&trade; is an edit llc company.</li>
+                        <li>700 Van Ness Avenue, Suite 219</li>
+                        <li>Fresno, CA 93721</li>
+                        <li>559-549-3543</li>  
+                    </ul>    
+                      <h4><strong><a href="mailto:hello@mntge.com">hello@mntge.com</strong></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+</html>

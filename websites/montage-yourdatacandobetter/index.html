@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Your Data Can Do Better</title>
+
+    <link rel="shortcut icon" href="montage-logo.ico" type="image/x-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Stoke:400,300' rel='stylesheet' type='text/css'>
+
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-76809257-1', 'auto');
+       ga('send', 'pageview');
+
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-inner">
+                <ul class="nav nav-center">
+                    <a id="menu-close"></a>
+                    <li class="active">
+                        <a href="index.html">about</a>
+                    </li>
+                    <li>
+                        <a href="history.html">history</a>
+                    </li>
+                    <li>
+                        <a href="history.html#aggregator" onclick = $("#menu-close").click(); >aggregator</a>
+                    </li>
+                    <li>
+                        <a href="history.html#developers" onclick = $("#menu-close").click(); >for developers</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>    
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Header -->
+    <div class="wrapper-section">  
+        <div class="section-header">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-md-offset-1">
+                        <div class="logo">
+                            <a class="navbar-brand topnav" href="index.html"><img src="css/images/montage-logo-tm.png" alt="montage">
+                              <span class="logo-montage"></span>
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-4">
+                        <div class="contact-info">
+                            <button type="button" class="btn btn-default btn-sm" id="contact" data-toggle="modal" data-target="#myModalContact">Contact Us  |
+                            </button>
+                            <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+                                <div class="wistia_embed wistia_async_gujkuml54i popover=true popoverContent=html" id="video"
+                                style="display:inline-block; white-space:nowrap;">
+                                  <a href="#">Watch video<i class="fa fa-play-circle-o"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>                 
+            </div>    
+        </div>
+
+        <div class="intro-header" id="intro-img">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6 col-md-offset-1">
+                        <div class="intro-message">
+                            <h1>Your Data's Big Picture</h1>
+                            <h3>at Your Fingertips</h3>
+                            </br>
+                            <p class="montage-info">
+                                Montage is the translation and data storage platform you've been looking for.
+                            </p>
+                            <ul class="cta-button">
+                                <li>
+                                    <button type="button" class="btn btn-default btn-lg" id="demo" data-toggle="modal" data-target="#myModal">REQUEST DEMO
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-lg" id="dev-info" data-toggle="modal" data-target="#myModal">DEVELOPER INFO
+                                    </button>
+                                </li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+         </div>
+        <!-- /.intro-header --> 
+    </div>
+    <!-- /.wrapper-section-->
+
+    <div class="content-montage">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h1>What is Montage?</h1>
+                </div>
+                <div class="col-xs-8 col-sm-4 col-md-4 col-xs-offset-2 pie">
+                    <div class="pie-graph">
+                        <img src="css/images/infographic.png" alt="montage">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-5 col-lg-5 text">
+                    <div class="data-info">
+                        <p>Montage pulls data from each source</p>
+                        <p>Schedules real time updates</p>   
+                        <p>And then translates the data into a common, consumable format.</p>
+                        <p class="headline">
+                          Decisions can be made when all the data is visible together.
+                        </p>
+                    </div>
+                </div>             
+            </div>
+        </div>
+    </div>
+    <div class="content-section-a">  
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6 col-lg-offset-1">
+                    <p class="lead-1">Montage bridges any input into any type of interface</p>
+                    <h2>Reduce the Time to Market</h2>
+                    <p>for web and mobile apps that rely on multiple data sets.</p>
+                    <p>Montage allows your development team to focus <br> on building applications instead of programming <br> custom interfaces between datasets.</p>
+                </div>
+            </div>
+            <!-- /.ends row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="contact-demo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 text-center">
+                    <div class="form-message">
+                        <h1>Like Montage?</h1>
+                        <p class="demo-info">Contact us today to set up a demo.</p>
+                        <button type="button" class="btn-default" id="ag-btn" data-toggle="modal" data-target="#myModalContact">CONTACT US
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-b" id="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 col-lg-offset-3 text-center">
+                    <p class="lead-2"><img src="css/images/left-quote.png"></i>Once you start to see data in this way, you start to see it everywhere and you start dreaming of new solutions. That's what data should do.<img src="css/images/right-quote.png"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 text-center">
+                    <div class="name">
+                        <h4>- Advanced Nut Sciences</h4>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-c">
+         <div class="container-fluid">
+            <div class="row">
+                <h1>Languages Supported:</h1>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+                    <img src="css/images/python.png"/>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4" id="django">
+                    <img src="css/images/django.png"/>
+                </div>
+                 <div class="col-xs-4 col-sm-4 col-md-4">
+                    <img src="css/images/react.png"/>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section -->
+
+    <!-- Modal-1 -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Request Demo</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="contact" name="contact" method="POST" action="//formspree.io/iolguin@mntge.com">
+                    <div class="text-center">
+                      <input type="text" name="name" placeholder="First*" class="input-text" required>
+                      <input type="text" placeholder="Last" class="input-text"><br>
+                      <input type="text" placeholder="Company Name" class="input-text">
+                      <input type="text" placeholder="Phone Number*" class="input-text" required><br>
+                    </div>  
+                      <input type="email" name="_replyto" placeholder="Email Address*" class="input-email" required><br>
+                      <input type="hidden" name="_cc" value="mmayes@editllc.com" /> 
+
+                      <textarea name="message" placeholder="Message*" class="input-message" required></textarea>
+
+
+                      <input type="hidden" name="_subject" value="Demo requested from yourdatacandobetter.com" />
+
+                      <button type="submit" class="btn btn-default btn-modal pull-right">Send</button>
+                  </form>  
+                </div>
+
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-4 pull-left">
+                        <h5>*Denotes required fields</h5>
+                    </div>
+                  </div>  
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Modal-2 -->
+    <div class="modal fade" id="myModalContact" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Contact Us</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="contact" name="contact" method="POST" action="//formspree.io/iolguin@mntge.com">
+                    <div class="text-center">
+                      <input type="text" name="name" placeholder="First*" class="input-text" required>
+                      <input type="text" placeholder="Last" class="input-text"><br>
+                      <input type="text" placeholder="Company Name" class="input-text">
+                      <input type="text" placeholder="Phone Number*" class="input-text" required><br>
+                    </div>  
+                      <input type="email" name="_replyto" placeholder="Email Address*" class="input-email" required><br>
+                      <input type="hidden" name="_cc" value="mmayes@editllc.com" /> 
+
+                      <textarea name="message" placeholder="Message*" class="input-message" required></textarea>
+
+
+                      <input type="hidden" name="_subject" value="Demo requested from yourdatacandobetter.com" />
+
+                      <button type="submit" class="btn btn-default btn-modal pull-right">Send</button>
+                  </form>  
+                </div>
+
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-4 pull-left">
+                        <h5>*Denotes required fields</h5>
+                    </div>
+                  </div>  
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-6">
+                    <h2>Connect with us:</h2>
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com/editLLC" target="_blank">Facebook/Editllc</li>
+                        <li><a href="https://twitter.com/editllc" target="_blank">Twitter@Montage</li>
+                        <li><a href="https://instagram.com/edit_llc" target="_blank">Instagram Edit_llc</li>
+                    </ul>       
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-6"> 
+                    <div class="account">
+                        <a href="https://mntge.com" target="_blank">My Account/Login
+                    </div>
+                </div>    
+            </div>
+            <div class="border"></div>
+            <div class="row">    
+                <div class="col-xs-6 col-lg-10">
+                    <ul class="address">
+                        <li>Montage&trade; is an edit llc company.</li>
+                        <li>700 Van Ness Avenue, Suite 219</li>
+                        <li>Fresno, CA 93721</li>
+                        <li>559-549-3543</li>  
+                    </ul>    
+                      <h4><strong><a href="mailto:hello@mntge.com">hello@mntge.com</strong></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+    var jump=function(e)
+    {
+       if (e){
+           e.preventDefault();
+           var target = $(this).attr("href");
+       }else{
+           var target = location.hash;
+       }
+
+       $('html,body').animate(
+       {
+           scrollTop: $(target).offset().top
+       },2000,function()
+       {
+           location.hash = target;
+       });
+
+    }
+
+    $('html, body').hide();
+
+    $(document).ready(function()
+    {
+        $('a[href^=#]').bind("click", jump);
+
+        if (location.hash){
+            setTimeout(function(){
+                $('html, body').scrollTop(0).show();
+                jump();
+            }, 0);
+        }else{
+            $('html, body').show();
+        }
+    });
+    </script>
+
+</body>
+</html>
