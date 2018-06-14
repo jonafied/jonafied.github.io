@@ -46,6 +46,14 @@
   interval: 2000
 })
 
+$('a.PDFS').click(function(e) {
+  e.preventDefault();
+  window.open('./pdf/jfied-wireframes-concept.pdf');
+  window.open('./pdf/jfied-wireframes.pdf');
+  window.open('./pdf/wireframe-steps.png');
+  window.open('./pdf/sketches.pdf');
+});
+
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling
@@ -68,3 +76,5 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
+
