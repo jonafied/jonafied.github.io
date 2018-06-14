@@ -349,7 +349,15 @@ a.fa-long-arrow-down {
 .margin-top-30 {
     margin-top: 30px;
 }
-
+.red-text {
+    color:#820F0D;
+    text-decoration: none;
+}
+.red-text:hover {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
 
