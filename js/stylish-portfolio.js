@@ -48,10 +48,8 @@
 
 $('a.PDFS').click(function(e) {
   e.preventDefault();
-  window.open('./pdf/jfied-wireframes-concept.pdf');
-  window.open('./pdf/jfied-wireframes.pdf');
-  window.open('./pdf/wireframe-steps.png');
-  window.open('./pdf/sketches.pdf');
+  window.open('./pdf/Design_Process.pdf');
+
 });
 
 })(jQuery); // End of use strict
