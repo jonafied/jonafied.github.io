@@ -46,11 +46,6 @@
   interval: 2000
 })
 
-$('a.PDFS').click(function(e) {
-  e.preventDefault();
-  window.open('./pdf/Design_Process.pdf');
-
-});
 
 })(jQuery); // End of use strict
 
