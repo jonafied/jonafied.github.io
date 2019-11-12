@@ -260,7 +260,7 @@ h5 {
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    width: 18px;
+    width: 28px;
     height: 2px;
     background-color: #d4d315;
     -webkit-transition: background-color 0.3s;
@@ -459,6 +459,10 @@ b i:last-child {
     text-transform: uppercase;
     color: #999;
     line-height: 1.7;
+    background-color: #000000;
+    width: 350px;
+    display: inline-flex;
+    justify-content: center;
 }
 
 
