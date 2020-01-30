@@ -1,0 +1,484 @@
+/* -------------------------------- 
+color-scheme
+15% K --- #DBDCDE
+21% k --- #
+50% k --- #939598
+75% k --- #636466
+blue --- #00AEEF
+dk blue --- #00355F
+lt blue --- #D4EFFC
+green --- #8DC63F
+-------------------------------- */
+
+/* -------------------------------- 
+navbar
+-------------------------------- */
+#nav-history > li.active a { 
+    border-bottom: thick solid #8DC63F;
+    color: #8DC63F;
+}
+
+.wrapper-history {
+    background-color: #D4EFFC;
+}
+
+#nav-history > li > a {
+    color: #00AEEF;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+#nav-history > li > a:hover {
+    background-color: transparent;
+    color: #00355F;
+}
+
+/* -------------------------------- 
+history-timeline
+-------------------------------- */
+.wrapper-section {
+    background-color: #00AEEF;
+    /*padding-top: 25px;*/
+    margin-top: -22px;
+}
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    .wrapper-section {
+        padding-bottom: 50px;
+    }
+} 
+
+.timeline-info img {
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -25px;
+}
+
+@media screen and (max-width : 1199px) and (min-width: 992px) {
+  .timeline-info img {
+      position: absolute;
+      margin-left: -180px;
+      margin-top: -25px;
+    }    
+}
+
+@media screen and (max-width: 991px) and (min-width : 769px) {
+  .timeline-info img {
+      position: absolute;
+      margin-left: -180px;
+      margin-top: -25px;
+    }    
+}
+
+@media screen and (max-width : 768px) and (min-width: 668px) {
+    .timeline-info img {
+        position: absolute;
+        margin-left: -180px;
+        margin-top: -25px;
+    }
+} 
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    .timeline-info img {
+        position: absolute;
+        margin-left: -180px;
+        margin-top: -25px;
+    }
+} 
+
+.timeline-info h1 {
+    color: #fff;
+    font-size: 4.5em;
+}
+
+.timeline-info .timeline-content {
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.1em;
+}
+
+.timeline-info p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #fff;
+}
+
+#cd-timeline {
+    background: repeating-linear-gradient(0, transparent 0, transparent 2px, #fff 1px, #fff 3px);
+    background-color: #00AEEF;
+    background-attachment: fixed, scroll;
+    background-size: 1.5rem 100%, 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.cd-timeline-block .align-content {
+    text-align: right;
+}
+
+.cd-timeline-block #content-left {
+    float: left;
+}
+
+.cd-timeline-block #content-right {
+    float: right;
+}
+
+.cd-timeline-block #founders-image {
+    width: 75%;
+    display: block;
+    height: auto;
+    position: relative;
+    left: 20%;
+}
+
+/* -------------------------------- 
+section-data-partner
+-------------------------------- */
+#partners {
+    /*margin-top: -42px; */
+}
+
+.data-partner-info {
+    background-color: #00355F;
+    padding: 90px;
+    margin-left: -30px;
+    /*margin-top: -29px;*/
+}
+
+.data-partner-info h4 {
+    color: #FFF;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+.data-partner-info h1 {
+    color: #00AEEF;
+    font-size: 4em;
+}
+
+.data-partner-info p {
+    color: #fff;
+}
+
+.data-partner-info .partner-info {
+    font-weight: 300;
+}
+
+.data-partner-info .partner-info-2 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.data-partner-info .partner-info-2 > .trade {
+    font-size: .5em;
+    top: -7px;
+    position: relative;
+}
+
+.data-partner-companies {
+    background-color: #FFF;
+}
+
+.data-partner-companies img {
+    width: 85%;
+}
+
+@media screen and (max-width : 768px) and (min-width: 668px) {
+    .data-partner-companies img {
+        margin-left: 60px;
+    }    
+}  
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    .data-partner-companies img {
+        margin-left: 25px;
+    }    
+}  
+
+.data-partner-companies p {
+    color: #00355F;
+    text-align: center;
+    padding-top: 25px;
+}
+
+@media screen and (max-width : 1199px) and (min-width: 992px) {
+    #partners {
+        margin-top: 0; 
+    }    
+}
+
+@media screen and (max-width: 991px) and (min-width : 769px) {
+   #partners {
+        margin-top: -28px;
+    }
+    .data-partner-info {
+        margin-right: -30px;
+    }    
+}
+
+@media screen and (max-width : 768px) and (min-width: 668px) {
+    #partners {
+        margin-top: -28px;
+    }
+    .data-partner-info {
+        margin-right: -30px;        
+    }
+}
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    #partners {
+        margin-top: -28px; 
+    }
+    .data-partner-info {
+        margin-right: -30px;       
+    }
+}
+
+/* -------------------------------- 
+section-data-partner-table
+-------------------------------- */ 
+#cell-info > p {
+    display: none;
+    color: #00355F;
+    width: 40%;
+    float: right;
+    margin-right: 65px;
+}
+
+.show {
+    display: block;
+}
+
+table {
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #DBDCDE;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child th {
+    border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+}
+
+#trimark {
+    font-size: 2.7em;
+    color: #939598;
+}
+
+.cell1 > img {
+    width: 25%;
+}
+
+.cell2 > img {
+    width: 60%;
+}
+
+.cell3 > img {
+    width: 75%;
+}
+
+.cell5 > img {
+    width: 20%;
+}
+
+#partners-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100)%;
+}
+
+#partners-img:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+@media screen and (max-width: 991px) and (min-width : 769px) {
+    #cell-info > p {
+        width: 80%;
+    }    
+}
+
+@media screen and (max-width : 768px) and (min-width: 668px) {
+    #cell-info > p {
+        width: 75%;
+        margin-right: 75px;
+    }    
+}
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    #cell-info > p {
+        width: 75%;
+        margin-right: 75px;
+    }    
+}
+
+/* -------------------------------- 
+call-to-action
+-------------------------------- */
+.call-to-action {
+    background-color: #8DC63F;
+    padding: 15px 0;
+}     
+
+.call-to-action .btn {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* -------------------------------- 
+content-section-a
+-------------------------------- */
+span.access {
+    font-size: 1.7em;
+    line-height: .8em;
+}
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    .section-a-image-1 img {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    .section-a-image-2 img {
+        width: 99%;
+    }
+}
+
+/* -------------------------------- 
+hr-line
+-------------------------------- */
+hr.montage-internship {
+    border-top: 2px solid #D4EFFC;
+    margin-bottom: -3px;
+}
+
+/* -------------------------------- 
+content-section-intern
+-------------------------------- */
+.content-section-intern  h3 {
+    text-transform: uppercase;
+    color: #00AEEF;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    letter-spacing: .7em;
+}
+
+/* -------------------------------- 
+section-internship
+-------------------------------- */
+.section-internship {
+    background: url(../css/images/internship-bkg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.section-internship-info h4 {
+    color: #8DC63F;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-shadow: .8px .8px rgba(0,0,0, .25);
+}
+
+.section-internship-info h1 {
+    font-weight: 300;
+    color: #FFF;
+}
+
+.section-internship p {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.section-internship-info .internship-info {
+    font-weight: 300;
+}
+
+.section-internship-info .internship-info-2 {
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+/* -------------------------------- 
+section-real-estate
+-------------------------------- */
+.section-real-estate {
+    padding: 25px 0;
+} 
+
+.section-real-estate h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00355F;
+}
+
+.section-real-estate h1 {
+    color: #939598;
+}
+
+.section-real-estate .section-real-estate-info h1 > .trade {
+    font-size: .5em;
+    top: -7px;
+    position: relative;
+}
+
+.section-real-estate-info p {
+    color: #939598;
+}
+
+.section-real-estate-info .real-estate-info {
+    color: #00355F;
+    font-size: .8em;
+    font-weight: 700;
+}    
+
+.section-real-estate-info .real-estate-info-2 {
+    color: #00355F;
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-top: -13px;
+} 
+
+#mediaModal {
+    margin: 20px;
+}
+
+.modal-content iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width : 667px) and (min-width : 321px) {
+    .modal-content iframe {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }  
+}
+
+
+
+
+
+
+
+
+
