@@ -1230,9 +1230,11 @@ textarea:focus {
 .info-section {
     border-left: 1px solid lightgray;
 }
+
 .boldText {
     font-weight: 600;
 }
+
 .lightText {
     font-weight: 200;
 }
@@ -1240,11 +1242,16 @@ textarea:focus {
 .section-margin {
     margin: 25px 0;
 }
+
 h2 {
     text-decoration:underline #d4d315;
 }
 .download-button {
     color:#d4d315;
+}
+
+.download-button:hover {
+    color:#ddd;
 }
 
 /* Responsive media queries
