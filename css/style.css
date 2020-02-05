@@ -1037,6 +1037,7 @@ footer img {
 .section-contact {
     background-color: #000;
     height: 100%;
+    text-align: center;
 }
 
 .about {
@@ -1219,6 +1220,33 @@ textarea:focus {
 }
 
 
+/* resume page 
+==================================================*/
+.resume-border {
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info-section {
+    border-left: 1px solid lightgray;
+}
+.boldText {
+    font-weight: 600;
+}
+.lightText {
+    font-weight: 200;
+}
+
+.section-margin {
+    margin: 25px 0;
+}
+h2 {
+    text-decoration:underline #d4d315;
+}
+.download-button {
+    color:#d4d315;
+}
+
 /* Responsive media queries
 ==================================================*/
 
@@ -1263,6 +1291,9 @@ textarea:focus {
     .portfolio .categories-grid .categories ul li {
         float: none;
     }
+    .info-section {
+        border-left: none;
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1274,6 +1305,9 @@ textarea:focus {
     }
     .main-container {
         padding: 50px 0;
+    }
+    .info-section {
+        border-left: none;
     }
 }
 
@@ -1287,5 +1321,8 @@ textarea:focus {
     .top-bar h1 {
         font-size: 30px;
         line-height: 30px;
+    }
+    .info-section {
+        border-left: none;
     }
 }
