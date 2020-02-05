@@ -1256,6 +1256,17 @@ h2 {
     color:#ddd;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ddd;
+    display: inline-block; 
+    width: 1em;
+}
+
 /* Responsive media queries
 ==================================================*/
 
